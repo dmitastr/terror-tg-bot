@@ -1,0 +1,38 @@
+{
+  "GMS": [
+    { "username": "dmastr", "name": "Митя", "id": "07_Mitya", "is_active": true, "employee_type": "gamemaster", "is_admin": true, "tg_id": 40322523 , "is_controller": true},
+    { "username": "ir_kurbatova", "name": "Ира", "id": "99_ira", "is_active": false, "employee_type": "admin" , "is_admin": true, "tg_id": 760911305, "is_controller": true},
+    { "username": "mgsnx", "name": "Алиса", "id": "050_Alice", "is_active": false, "employee_type": "admin" , "is_admin": true, "tg_id": 986783464, "is_controller": true},
+
+    { "username": "oldshpala", "name": "Егор", "id": "040_Egor", "is_active": true, "employee_type": "gamemaster", "is_admin": false, "tg_id": 666103135, "is_controller": false},
+    { "username": "darkkappa", "name": "Небесный", "id": "020_Nebesnii", "is_active": true, "employee_type": "gamemaster", "is_admin": false, "tg_id": 562886113 , "is_controller": false},
+    { "username": "kudripizdec", "name": "Полина", "id": "110_Pauline", "is_active": true, "employee_type": "gamemaster", "is_admin": false, "tg_id": 794500314 , "is_controller": false},
+    { "username": "besionish", "name": "Бес", "id": "010_Bes", "is_active": true, "employee_type": "gamemaster", "is_admin": false, "tg_id": 1758124642 , "is_controller": false},
+    { "username": "vatacasia", "name": "Федеральный", "id": "080_Federal", "is_active": true, "employee_type": "gamemaster", "is_admin": false, "tg_id": 789698111 , "is_controller": false},
+    { "username": "grey_judge", "name": "Матвей", "id": "990_Mateo", "is_active": true, "employee_type": "gamemaster", "is_admin": false, "tg_id": 671532228 , "is_controller": false},
+    { "username": "quetzalthegreenbird", "name": "Сергей", "id": "090_Sergey", "is_active": true, "employee_type": "gamemaster", "is_admin": false , "tg_id": 5185033105, "is_controller": false},
+    { "username": "ffartuc", "name": "Влад", "id": "120_Vlad", "is_active": true, "employee_type": "gamemaster", "is_admin": false , "tg_id": 1437881087, "is_controller": false},
+    { "username": "turbooo3333", "name": "Ночной Александр", "id": "030_Nochnoy", "is_active": true, "employee_type": "gamemaster", "is_admin": false , "tg_id": 491636867, "is_controller": false},
+    { "username": "milkymarss", "name": "CD-Ром", "id": "060_Roma", "is_active": true, "employee_type": "gamemaster", "is_admin": false, "tg_id": 468478472 , "is_controller": false},
+    { "username": "126969359", "name": "Руслан", "id": "130_ruslan", "is_active": true, "employee_type": "gamemaster", "is_admin": false , "tg_id": 126969359, "is_controller": false},
+    { "username": "mrdude_ru", "name": "Андрей Владов", "id": "119_ramodin", "is_active": false, "employee_type": "gamemaster", "is_admin": false , "tg_id": 658796156, "is_controller": false},
+
+    { "username": "niikonniiii", "name": "Викос-кокос", "id": "010_vikos", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 819110591, "is_controller": false},
+    { "username": "alifabray", "name": "Алина", "id": "020_alina", "is_active": false, "employee_type": "admin" , "is_admin": false, "tg_id": 2, "is_controller": false},
+    { "username": "larkania", "name": "Вика Ш.", "id": "030_vika_sh", "is_active": false, "employee_type": "admin" , "is_admin": false, "tg_id": 209679010, "is_controller": false},
+    { "username": "tatar_stardust", "name": "Андрей", "id": "040_andrew", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 1960260427, "is_controller": false},
+    { "username": "itmustdie", "name": "Соня", "id": "050_sona", "is_active": true, "employee_type": "admin", "is_admin": false , "tg_id": 1587463105, "is_controller": false},
+    { "username": "katyaveselkova", "name": "Лёня", "id": "060_lenya", "is_active": false, "employee_type": "admin" , "is_admin": false, "tg_id": 657651869, "is_controller": false},
+    { "username": "seductive_parrot", "name": "Сонья", "id": "070_sonya", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 1309170812, "is_controller": false},
+    { "username": "suicidal_witch", "name": "Алинса", "id": "080_alinsa", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 397692890, "is_controller": false},
+    { "username": "lublunoizemc", "name": "Ли́са", "id": "100_lisa", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 1044462935, "is_controller": false},
+    { "username": "mi_riii_lll", "name": "Соник", "id": "120_sonic", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 313957642, "is_controller": false},
+    { "username": "cedarandrain", "name": "Оля", "id": "140_olya", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 436632855, "is_controller": false},
+    { "username": "givemeper", "name": "Даня", "id": "160_danya", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 6457482551, "is_controller": false},
+    { "username": "petulierc", "name": "Милана", "id": "170_milana", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 1104818200, "is_controller": false},
+    { "username": "solarissnst", "name": "Солина", "id": "180_solina", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 955524522, "is_controller": false},
+    { "username": "mne_ne_trudno", "name": "Миша", "id": "190_misha", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 406852568, "is_controller": false},
+    { "username": "126969359", "name": "Руслан", "id": "200_ruslan", "is_active": true, "employee_type": "admin", "is_admin": false , "tg_id": 126969359, "is_controller": false},
+    { "username": "voltadog", "name": "Полина", "id": "210_polina", "is_active": true, "employee_type": "admin", "is_admin": false , "tg_id": 1955448774, "is_controller": false}
+  ]
+}

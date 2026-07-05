@@ -1,0 +1,200 @@
+{
+    "slots": [
+        {
+            "id": 11,
+            "day": 1,
+            "time_period": 1,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 13,
+            "day": 1,
+            "time_period": 3,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 21,
+            "day": 2,
+            "time_period": 1,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 23,
+            "day": 2,
+            "time_period": 3,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 31,
+            "day": 3,
+            "time_period": 1,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 33,
+            "day": 3,
+            "time_period": 3,
+            "capacity": 2,
+            "employee_type": "admin"
+        },
+        {
+            "id": 41,
+            "day": 4,
+            "time_period": 1,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 43,
+            "day": 4,
+            "time_period": 3,
+            "capacity": 2,
+            "employee_type": "admin"
+        },
+        {
+            "id": 51,
+            "day": 5,
+            "time_period": 1,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 53,
+            "day": 5,
+            "time_period": 3,
+            "capacity": 2,
+            "employee_type": "admin"
+        },
+        {
+            "id": 55,
+            "day": 5,
+            "time_period": 5,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 61,
+            "day": 6,
+            "time_period": 1,
+            "capacity": 2,
+            "employee_type": "admin"
+        },
+        {
+            "id": 64,
+            "day": 6,
+            "time_period": 4,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 63,
+            "day": 6,
+            "time_period": 3,
+            "capacity": 2,
+            "employee_type": "admin"
+        },
+        {
+            "id": 65,
+            "day": 6,
+            "time_period": 5,
+            "capacity": 1,
+            "employee_type": "admin"
+        },
+        {
+            "id": 71,
+            "day": 7,
+            "time_period": 1,
+            "capacity": 2,
+            "employee_type": "admin"
+        },
+        {
+            "id": 73,
+            "day": 7,
+            "time_period": 3,
+            "capacity": 2,
+            "employee_type": "admin"
+        },
+        {
+            "id": 13,
+            "day": 1,
+            "time_period": 3,
+            "capacity": 1,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 23,
+            "day": 2,
+            "time_period": 3,
+            "capacity": 1,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 33,
+            "day": 3,
+            "time_period": 3,
+            "capacity": 1,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 43,
+            "day": 4,
+            "time_period": 3,
+            "capacity": 1,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 53,
+            "day": 5,
+            "time_period": 3,
+            "capacity": 2,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 55,
+            "day": 5,
+            "time_period": 5,
+            "capacity": 1,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 61,
+            "day": 6,
+            "time_period": 1,
+            "capacity": 2,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 63,
+            "day": 6,
+            "time_period": 3,
+            "capacity": 2,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 65,
+            "day": 6,
+            "time_period": 5,
+            "capacity": 1,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 71,
+            "day": 7,
+            "time_period": 1,
+            "capacity": 2,
+            "employee_type": "gamemaster"
+        },
+        {
+            "id": 73,
+            "day": 7,
+            "time_period": 3,
+            "capacity": 2,
+            "employee_type": "gamemaster"
+    }
+    ]
+}

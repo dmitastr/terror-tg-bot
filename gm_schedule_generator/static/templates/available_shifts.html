@@ -1,0 +1,52 @@
+<meta charset="UTF-8"> 
+<style>
+    table {
+        table-layout: auto;
+        width: auto;
+        border-collapse: collapse;
+        width: 60%;
+        height: 320px;
+        text-align: center;
+        font-family: Arial;
+        border-collapse:collapse;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    th.header {
+        line-height: 10px;
+    }
+
+    .first-col {
+        width: 20px;
+    }
+
+
+
+</style>
+
+<table>
+    <thead style="background-color: "{{ header_color }}">
+        <tr class="header">
+            <th class="first-col" style="border: 1px solid black; background-color: {{ header_color }}; font-weight: normal"></th>
+            {% for date in dates %}
+                <th style="border: 1px solid black; background-color: {{ header_color }}; font-weight: normal">{{ date }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for name in names %}
+            <tr class="first-col">
+                <td class="first-col" style="border: 1px solid black">{{ name["gamemaster_name"] }}</td>
+                {% for date in dates %}
+                    <td  style="border: 1px solid black" bgcolor="{{ table_data[name["gamemaster_name"]][date]["bgcolor"] }}">{{table_data[name["gamemaster_name"]][date]["value"]}}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

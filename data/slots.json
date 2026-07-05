@@ -1,0 +1,146 @@
+{
+    "slots_by_type": {
+        "gamemaster": {
+            "slots": {
+                "13": {
+                    "id": 13,
+                    "capacity": 2
+                },
+                "11": {
+                    "id": 11,
+                    "capacity": 2
+                },
+                "23": {
+                    "id": 23,
+                    "capacity": 2
+                },
+                "21": {
+                    "id": 21,
+                    "capacity": 2
+                },
+                "33": {
+                    "id": 33,
+                    "capacity": 2
+                },
+                "31": {
+                    "id": 31,
+                    "capacity": 2
+                },
+                "43": {
+                    "id": 43,
+                    "capacity": 2
+                },
+                "41": {
+                    "id": 41,
+                    "capacity": 2
+                },
+                "51": {
+                    "id": 51,
+                    "capacity": 2
+                },
+                "53": {
+                    "id": 53,
+                    "capacity": 2
+                },
+                "55": {
+                    "id": 55,
+                    "capacity": 1
+                },
+                "61": {
+                    "id": 61,
+                    "capacity": 2
+                },
+                "63": {
+                    "id": 63,
+                    "capacity": 2
+                },
+                "65": {
+                    "id": 65,
+                    "capacity": 1
+                },
+                "71": {
+                    "id": 71,
+                    "capacity": 2
+                },
+                "73": {
+                    "id": 73,
+                    "capacity": 2
+                }            
+            }
+    },
+        "admin": {
+            "slots": {
+                "11": {
+                    "id": 11,
+                    "capacity": 2
+                },
+                "13": {
+                    "id": 13,
+                    "capacity": 2
+                },
+                "21": {
+                    "id": 21,
+                    "capacity": 2
+                },
+                "23": {
+                    "id": 23,
+                    "capacity": 2
+                },
+                "31": {
+                    "id": 31,
+                    "capacity": 2
+                },
+                "33": {
+                    "id": 33,
+                    "capacity": 2
+                },
+                "41": {
+                    "id": 41,
+                    "capacity": 2
+                },
+                "43": {
+                    "id": 43,
+                    "capacity": 2
+                },
+                "51": {
+                    "id": 51,
+                    "capacity": 2
+                },
+                "53": {
+                    "id": 53,
+                    "capacity": 2
+                },
+                "55": {
+                    "id": 55,
+                    "capacity": 1
+                },
+                "61": {
+                    "id": 61,
+                    "capacity": 2
+                },
+                "63": {
+                    "id": 63,
+                    "capacity": 2
+                },
+                "64": {
+                    "id": 64,
+                    "capacity": 1
+                },
+                "65": {
+                    "id": 65,
+                    "capacity": 1
+                },
+                "71": {
+                    "id": 71,
+                    "capacity": 2
+                },
+                "73": {
+                    "id": 73,
+                    "capacity": 2
+                }
+            }
+            
+        }
+    }
+    
+}
