@@ -1,5 +1,4 @@
 from datetime import timedelta
-from email.mime import application
 
 from arrow import arrow
 from dotenv import load_dotenv
@@ -9,10 +8,10 @@ import os
 
 from datasource.sqlite.sqlite import SQLiteDataBase
 from service.service import Service
-from persistence.ydb_persistence import YdbPersistence
 
 from telegram.ext import Application
 from telegram import Update
+import aiosqlite
 
 import handlers
 from handlers.error_handler import error_handler
@@ -78,12 +77,12 @@ def main() -> None:
     job_queue = application.job_queue
 
     # Запускать каждые 24 часа, первый запуск — сразу при старте бота
-    job_queue.run_repeating(
-        cleanup_old_records,
-        interval=timedelta(days=1),
-        # первый запуск через 10 секунд после старта (можно поставить 0)
-        first=10,
-    )
+    # job_queue.run_repeating(
+    #     cleanup_old_records,
+    #     interval=timedelta(days=1),
+    #     # первый запуск через 10 секунд после старта (можно поставить 0)
+    #     first=10,
+    # )
 
     application.add_handlers(handlers=handlers_list)
     application.add_error_handler(error_handler)
