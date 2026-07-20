@@ -1,8 +1,40 @@
+# Вариант 1: sslip.io + настоящий Let's Encrypt сертификат.
+# nginx терминирует TLS и проксирует на бота внутри docker-сети,
+# certbot выпускает и продлевает сертификат.
 services:
-  terra-tg-bot:
+  bot:
     build: .
+    container_name: terror-tg-bot
     restart: unless-stopped
-    env_file:
-      - .env
+    env_file: .env
     volumes:
       - ./db:/app/db
+    expose:
+      - "8443"          # порт не публикуется наружу, доступен только nginx внутри сети
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: terror-tg-bot-nginx
+    restart: unless-stopped
+    depends_on:
+      - bot
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - certbot-etc:/etc/letsencrypt
+      - certbot-www:/var/www/certbot
+
+  certbot:
+    image: certbot/certbot
+    container_name: terror-tg-bot-certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - certbot-www:/var/www/certbot
+    # Продление раз в 12 часов; выпуск первого сертификата делаем вручную (см. DEPLOY_DOCKER.md)
+    entrypoint: "sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h; done;'"
+
+volumes:
+  certbot-etc:
+  certbot-www:
