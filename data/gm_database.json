@@ -33,6 +33,8 @@
     { "username": "solarissnst", "name": "Солина", "id": "180_solina", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 955524522, "is_controller": false},
     { "username": "mne_ne_trudno", "name": "Миша", "id": "190_misha", "is_active": true, "employee_type": "admin" , "is_admin": false, "tg_id": 406852568, "is_controller": false},
     { "username": "126969359", "name": "Руслан", "id": "200_ruslan", "is_active": true, "employee_type": "admin", "is_admin": false , "tg_id": 126969359, "is_controller": false},
-    { "username": "voltadog", "name": "Полина", "id": "210_polina", "is_active": true, "employee_type": "admin", "is_admin": false , "tg_id": 1955448774, "is_controller": false}
+    { "username": "voltadog", "name": "Полина", "id": "210_polina", "is_active": true, "employee_type": "admin", "is_admin": false , "tg_id": 1955448774, "is_controller": false},
+    { "username": "sdkfz_101_wh", "name": "Артём", "id": "220_artem", "is_active": true, "employee_type": "admin", "is_admin": false , "tg_id": 1396325076, "is_controller": false},
+    { "username": "mrforgettableq", "name": "Лина", "id": "230_lina", "is_active": true, "employee_type": "admin", "is_admin": false , "tg_id": 1429261672, "is_controller": false}
   ]
 }
