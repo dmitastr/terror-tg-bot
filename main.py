@@ -45,13 +45,6 @@ def main() -> None:
     TG_TOKEN: str | None = os.environ.get("BOT_TOKEN")
     if not TG_TOKEN:
         raise ValueError("TG_TOKEN is not set")
-    LISTEN_ADDR = "0.0.0.0"
-    PORT = int(os.environ.get("PORT", "8443"))
-    URL_PATH = TG_TOKEN
-    WEBHOOK_URL = os.environ.get(
-        "WEBHOOK_URL") or f"https://{os.environ['WEBHOOK_HOST']}/{URL_PATH}"
-
-    SECRET_TOKEN = os.environ.get("WEBHOOK_SECRET", "")
 
     db_path = os.environ.get("DB_PATH")
     if not db_path:
@@ -93,16 +86,7 @@ def main() -> None:
     application.add_handlers(handlers=handlers_list)
     application.add_error_handler(error_handler)
 
-    application.run_webhook(
-        listen=LISTEN_ADDR,
-        port=PORT,
-        url_path=URL_PATH,
-        webhook_url=WEBHOOK_URL,
-        secret_token=SECRET_TOKEN or None,
-        # drop_pending_updates=True,  # раскомментируй, если не нужны старые апдейты после рестарта
-    )
-
-    # application.run_polling(allowed_updates=Update.ALL_TYPES)
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
 if __name__ == "__main__":
