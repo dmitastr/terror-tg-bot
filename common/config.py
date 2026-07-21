@@ -47,7 +47,7 @@ GAMEMASTERS_MAPPING: dict[str, Tuple[str, str]] = {
 }
 
 DEFAULT_SLOTS: dict[str, List[str]] = {
-    "besionish": [],
+    "besionish": ['53', '55', '61', '63', '65', '71'],
     "darkkappa": ['73'],
     "126969359": [],
 }
