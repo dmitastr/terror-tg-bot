@@ -49,6 +49,7 @@ GAMEMASTERS_MAPPING: dict[str, Tuple[str, str]] = {
 DEFAULT_SLOTS: dict[str, List[str]] = {
     "besionish": [],
     "darkkappa": ['73'],
+    "126969359": [],
 }
 
 EVENING = 3
